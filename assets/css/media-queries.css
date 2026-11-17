@@ -1,0 +1,23 @@
+/* NavBar section */
+@media (max-width:800px){
+    header nav{
+        display:none;
+    }
+    header .btn-container img{
+        display:block;
+    }
+    header .btn-container{
+        display:flex;
+        gap: 10px;
+    }
+    header .logo img{
+        display:none;
+    }
+    header .logo span{
+        width: 9px;
+        height: 9px;
+        margin-right: 9px;
+        background-color: var(--third-color);
+        border-radius: 12px;
+    }
+}

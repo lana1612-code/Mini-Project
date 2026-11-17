@@ -21,6 +21,7 @@ header .logo p{
     margin-left: 10px;
     font-family: 'Playfair Display';
     font-weight:600;
+    font-size: 28px;
     line-height: 3.6;
     color:var(--primary-color);
 }
@@ -37,5 +38,8 @@ header nav a:first-child{
     color:var(--third-color);
     border-bottom: 2px solid var(--third-color);
     padding-bottom: 2px;
+}
+header .btn-container img{
+    display:none;
 }
 /* End NavBar section */
