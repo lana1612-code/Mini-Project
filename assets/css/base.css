@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FFF8F3;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.container{
+    width:calc(100% - 96px);
+    margin:auto;
+}
