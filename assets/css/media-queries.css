@@ -92,5 +92,12 @@
         flex:1;
         text-align: center;
     }
+    .hero .image .cup-image{
+        background-color: #FFF8F3;
+    }
+    .hero .image .image-container{
+        background-color: #FFF8F3;
+    }
     
 }
+/* About Us Section */

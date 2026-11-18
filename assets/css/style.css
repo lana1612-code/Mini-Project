@@ -196,5 +196,123 @@ header{
   margin-bottom: 0.4rem;
   background: url("../images/star.svg") no-repeat center / contain;
 }
-
 /* End Hero section */
+/* About Us section */
+.AboutUs .row{
+    padding: 112px 0;
+    justify-content: space-between;
+    gap: 64px;
+    flex-wrap: nowrap;
+}
+.AboutUs .image .cup-image{
+    background-color: #ffffff;
+    padding :9px;
+    border-radius: 12px;
+    position: relative;
+}
+.AboutUs .row img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+.AboutUs .box{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    padding: 16px;
+    background-color: #2B1B17;
+    border-radius: 8px;
+}
+.box p:first-child{
+    font-size: 28px;
+    font-weight: 600;
+    color:#FFDCC2;
+    
+}
+.box p:last-child{
+    font-size: 12px;
+    font-weight: 600;
+    color:#FFDCC2; 
+}
+.AboutUs .content {
+    flex:1;
+}
+.AboutUs .image{
+    flex:1;
+}
+.AboutUs .image{
+    padding: 48px 0px;
+}
+.AboutUs .content .fr-btn{
+    color:var(--third-color);
+    font-size: 12px;
+    font-weight: 600;
+    border : 1px solid #D3C3C099;
+    background-color: #F6ECE2;
+    padding: 6px 14px;
+    border-radius: 12px;
+    width: fit-content;
+}
+.AboutUs h1{
+    margin-top: 24px ;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    font-family: 'Playfair Display', sans-serif;
+}
+.AboutUs .content .text{
+    color:var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.AboutUs .btn{
+    background-color: var(--btn-color);
+    color:white;
+    padding: 14px 28px;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+}
+.AboutUs .btn img{
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+}
+.AboutUs .list .list-item .img{
+    padding: 11px;
+    border-radius: 4px;
+    background-color: #F6ECE2;
+    width:40px;
+    height: 40px;
+}
+.AboutUs .list .list-item .info p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color:var(--primary-color);
+}
+.AboutUs .list .list-item .info p:last-child{
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--secondary-color);
+}
+.AboutUs .list .list-item{
+    display: flex;
+    gap: 16px;
+}
+.AboutUs .list .list-item .info{
+    padding-right: 82px;
+    line-height: 22.4px;
+}
+.AboutUs .list .row{
+    padding:0;
+}
+.AboutUs .padding-m{
+    margin :16px 0;
+}
+.AboutUs .list{
+    padding-top:32px;
+}
