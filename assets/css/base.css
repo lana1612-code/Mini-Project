@@ -3,6 +3,8 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
     background-color: #FFF8F3;
 }
 ul{
