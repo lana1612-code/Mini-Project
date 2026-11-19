@@ -316,3 +316,76 @@ header{
 .AboutUs .list{
     padding-top:32px;
 }
+/* Special Offer Section */
+.SpecialOffer{
+    padding: 80px 0;
+}
+.SpecialOffer .container{
+    background-color: var(--btn-color);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SpecialOffer .content{
+    padding: 64px 24px;
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SpecialOffer .content .info1{
+    color:#FFDCC2;
+    background-color: #FFF8F31A;
+    border: 1px solid #8453264D;
+    padding : 6px 16px;
+    width: fit-content;
+    border-radius: 12px;
+}
+.SpecialOffer .content span{
+    padding-right: 8px;
+}
+.SpecialOffer .content .heading{
+    margin-top: 25px;
+    color:#FFF8F3;
+    text-wrap: wrap;
+    max-width: 550px;
+}
+.SpecialOffer .content .heading h1{
+    font-family: var(--primary-font);
+    letter-spacing: -1.28px;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 600;
+}
+.SpecialOffer .content .info{
+    padding: 24px 0;
+    color:#D3C3C0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.25px;
+    margin: 0 96px;
+    text-wrap: wrap;
+    max-width: 576px;
+    margin: 0 auto;
+}
+.SpecialOffer .content .btn{
+    text-align: center;
+}
+.SpecialOffer .content .btn .btn1{
+    border: 1px dashed #845326;
+    color:#FFDCC2;
+    background-color: #FFF8F30D;
+    padding:12px 24px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+.SpecialOffer .content .btn .btn2{
+    color:#FFF8F3;
+    background-color: #845326;
+    padding:12px 32px;
+    border-radius: 4px;
+    border: none;
+}
