@@ -101,3 +101,53 @@
     
 }
 /* About Us Section */
+
+
+
+/* Special Offer Section */
+@media (max-width:800px){
+
+    .container{
+        width:calc(100% - 32px);
+        margin:auto;
+    }
+    .SpecialOffer .content .info1{
+        font-size: 12px;
+    }
+    .SpecialOffer .content .heading h1{
+        font-size: 28px;
+        max-width: 500px;
+        line-height: 36px;
+    }
+    .SpecialOffer .content .info{
+        font-size: 14px;
+        max-width: 477px;
+    }
+}
+@media (max-width:600px){
+    .SpecialOffer .content .btn{
+        display:flex;
+        flex-direction: column;
+    }
+    .SpecialOffer .content .info{
+        font-size: 14px;
+        max-width: 350px;
+    }
+    .SpecialOffer .content .heading h1{
+        max-width: 300px;
+        letter-spacing :0.28px;
+    }
+    .SpecialOffer .content .btn
+    {
+        width:100%;
+    }
+    .SpecialOffer .content .btn .btn2{
+        width:100%;
+        margin-top:16px;
+    }
+    .SpecialOffer .content .btn .btn1{
+         width:fit-content;
+         margin: auto;
+         
+    }
+}
