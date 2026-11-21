@@ -151,3 +151,28 @@
          
     }
 }
+/* footer section */
+@media (max-width:1000px){
+.footer .contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 48px;
+    row-gap: 48px;
+}
+.footer .text{
+    flex-direction: column;
+    gap:20px;
+}
+}
+@media (max-width:700px){
+    .container{
+        width:calc(100% - 32px);
+        margin:auto;
+    }
+    .footer{
+        display: none;
+    }
+    .footer-mobile{
+        display: block;
+    }
+}
