@@ -542,6 +542,9 @@ border-radius: 4px;
 .footer-mobile{
     display:none;
 }
+.visit {
+    display:none;
+}
 .footer-mobile .heading h2{
     font-weight: 600;
     font-size: 28px;
@@ -614,4 +617,31 @@ padding:24px 0;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.visit .contact h2{
+color:#0E0402;
+font-weight: 600;
+font-size:20px;
+line-height: 28px;
+padding-bottom: 12px;
+}
+.visit {
+    padding: 24px 0;
+}
+.visit   span {
+    margin-right: 8px;
+}
+
+.visit  a{
+    color:#4F4442;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 22.4px;
+}
+.visit{
+    background-color: #FCF2E8;
+    border-top: 1px solid #D3C3C04D;
+}
+.visit .contact .second{
+    margin:8px 0;
 }

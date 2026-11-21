@@ -101,7 +101,49 @@
     
 }
 /* About Us Section */
-
+@media (max-width:1000px){
+    .AboutUs .row{
+        flex-direction: column;
+    }
+    .AboutUs .list .row{
+        flex-direction: row;
+        justify-content: left;
+        align-items: start;
+    }
+}
+@media (max-width:800px){
+    .AboutUs .btn{
+        width:100%;
+        background-color: #F6ECE2;
+        border:1px solid #D3C3C080;
+        color:#0E0402;
+    }
+    .AboutUs .list .list-item {
+        border:1px solid #D3C3C080;
+        padding : 10px;
+        background-color: #F6ECE2;
+    }
+    .AboutUs .list .list-item .img{
+        background-color: #F6ECE2;
+    }
+    .AboutUs .box .p-mobile{
+        display:none;
+    }
+    .AboutUs .box p:first-child{
+        font-size: 12px;
+    }
+    .AboutUs .box{
+        position: absolute;
+        top:20px;
+        left:20px;
+        bottom: revert-layer;
+        right:revert-layer;
+        padding:4px 10px;
+    }   
+    .AboutUs .image .cup-image{
+        position: relative;
+    }
+}
 
 
 /* Special Offer Section */
@@ -174,5 +216,8 @@
     }
     .footer-mobile{
         display: block;
+    }
+    .visit {
+        display:block;
     }
 }
