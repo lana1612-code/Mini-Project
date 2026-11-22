@@ -218,6 +218,12 @@ header{
     letter-spacing: 1.2px;
     color:#845326;
 }
+.customerFavor .heading .line{
+    background-color: #845326;
+    width:20px;
+    height:1px;
+    margin-right: 6px;
+}
 .customerFavor .heading h2{
     font-family: var(--primary-font);
     font-weight: 600;
@@ -227,7 +233,7 @@ header{
     margin-top:8px;
     margin-bottom: 16px;
 }
-.customerFavor .heading p:last-child{
+.customerFavor .heading .p2-laptop{
     font-weight: 400;
     font-size: 16px;
     line-height: 25.6px;
@@ -321,6 +327,12 @@ header{
 }
 .customerFavor .info .box .desc  .sub-w2{
     width:85%;
+}
+.customerFavor .heading .p1-mobile{
+    display:none;
+}
+.customerFavor .heading .p2-mobile{
+    display:none;
 }
 /* About Us section */
 .AboutUs .row{
