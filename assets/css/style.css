@@ -202,6 +202,7 @@ header{
     background-color: #FCF2E8;
     border: 1px 0px 1px 0px solid  #D3C3C033;
 }
+
 .customerFavor .container{
     display:flex;
     justify-content: center;
@@ -456,6 +457,7 @@ header{
 /* Special Offer Section */
 .SpecialOffer{
     padding: 80px 0;
+    animation: fadUp 1s;
 }
 .SpecialOffer .container{
     background-color: var(--btn-color);
@@ -531,6 +533,7 @@ header{
 footer{
     background-color: var(--btn-color);
     padding: 48px 0;
+    animation: fadUp 1s;
 }
 .footer .text .txt2 p {
     color:#D3C3C0;
@@ -782,3 +785,93 @@ padding-bottom: 12px;
 .visit .contact .second{
     margin:8px 0;
 }
+/* animation */
+@keyframes fadUp{
+    0% {
+       opacity: 0;
+       transform:translateY(-30px);
+    }
+    100% {
+       opacity: 1;
+       transform:translateY(0);
+    }
+
+}
+@keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes opicity {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+.hero{
+    animation: slideInRight 1s ;
+}
+.customerFavor{
+    animation: slideInLeft ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;
+}
+.AboutUs .image ,.AboutUs .content{
+    animation: slideInRight ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;
+}
+.SpecialOffer , .footer {
+    animation: opicity ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;
+} 
+.footer .list-1 {
+    animation: slideInLeft ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;   
+}
+.footer .list-2 {
+    animation: slideInLeft ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;   
+}
+.footer .list-3{
+    animation: slideInLeft ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;   
+}
+.footer .list-4{
+    animation: slideInLeft ;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;   
+}
+
+
+
