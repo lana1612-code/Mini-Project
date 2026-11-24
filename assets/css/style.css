@@ -834,6 +834,7 @@ padding-bottom: 12px;
       opacity: 1;
     }
 }
+
 .hero{
     animation: slideInRight 1s ;
 }
@@ -871,6 +872,12 @@ padding-bottom: 12px;
     animation: slideInLeft ;
     animation-timeline: view();
     animation-range: entry 0% entry 100%;   
+}
+.customerFavor .container .info .box {
+   transition: transform 0.4s ease;
+}
+.customerFavor .container .info .box:hover{
+    transform: scale(0.9); 
 }
 
 
