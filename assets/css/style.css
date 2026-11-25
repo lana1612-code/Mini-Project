@@ -250,14 +250,47 @@ header{
 }
 .customerFavor .info {
     display:flex;
-    gap:66px;
+    gap:33px;
 }
 .customerFavor .info .box {
     flex-grow: 1;
 }
 .customerFavor .info .box  .img img{
     border-radius:8px 8px 0px 0px;
+    width:100%;
 }
+.customerFavor .info .box  .img{
+    position:relative;
+}
+.customerFavor .info .box  .text{
+    position:absolute;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.72px;
+    color:#845326;
+    background-color: #FFF8F3E5;
+    border-radius: 12px;
+    border: 1px solid #D3C3C04D;
+    padding: 4px 12px;
+    top:16px;
+    left :16px;
+}
+.customerFavor .info .box  .money{
+    position:absolute;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    color:#FFF8F3;
+    background-color: #2B1B17;
+    border-radius:4px;
+    padding: 4px 12px;
+    right:16px;
+    bottom :16px;
+}
+
+
 .customerFavor .info .box .desc h3{
     font-weight: 600;
     font-size: 20px;
